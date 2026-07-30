@@ -176,5 +176,4 @@ Suggested services:
 - PostgreSQL: Neon, Supabase, Render, or Railway
 
 ## Screenshots
-
-Place your application screenshots inside the `screenshots` folder and reference them here before submission.
+![alt text](image-1.png)

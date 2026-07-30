@@ -1,36 +1,55 @@
-# AI Prompt History
+# Commit Messages with AI Attribution
 
-Record every meaningful AI interaction used while developing this project.
+## Commit 1
 
-## Prompt 1
+**Commit Message**
 
-**Date:** July 30, 2026  
-**Tool:** ChatGPT  
-**Purpose:** Project architecture and initial implementation
+```text
+chore: initialize car dealership project
 
-### Prompt
+Used ChatGPT to understand the project requirements and expected repository structure before implementation.
 
-> Create a full-fledged TDD car dealership inventory system with a React and Tailwind frontend, an Express and TypeScript backend, PostgreSQL, Prisma, JWT authentication, testing, documentation, and transparent AI usage.
-
-### Output Used
-
-The initial folder structure, backend API design, React component organization, Prisma models, and test scaffolding were used as a starting point.
-
-### Manual Review Required
-
-Before submitting, I reviewed the source code, ran the application, fixed environment-specific problems, added my own commits, tested each feature, and verified that I could explain the implementation.
+Co-authored-by: ChatGPT <AI@users.noreply.github.com>
+```
 
 ---
 
-## Purchase quantity validation test
+## Commit 2
 
-Prompt used:
+**Commit Message**
 
-"Review the existing purchase service and help me create a genuine failing
-test for missing purchase stock validation."
+```text
+test: add failing purchase quantity test
 
-AI usage:
+Used ChatGPT to discuss the Test-Driven Development (TDD) workflow and suggest the structure of a failing unit test. The final test implementation was completed and verified manually.
 
-ChatGPT identified that excessive-stock validation was already implemented,
-so it suggested testing the missing zero-quantity validation instead. I
-reviewed and adapted the Jest mocks and assertions to match the project.
+Co-authored-by: ChatGPT <AI@users.noreply.github.com>
+```
+
+---
+
+## Commit 3
+
+**Commit Message**
+
+```text
+feat: reject zero-quantity purchases
+
+Used ChatGPT to discuss validation approaches for rejecting invalid purchase quantities. The implementation and testing were completed manually.
+
+Co-authored-by: ChatGPT <AI@users.noreply.github.com>
+```
+
+---
+
+## Commit 4
+
+**Commit Message**
+
+```text
+refactor: extract purchase quantity validation
+
+Used ChatGPT to suggest a small refactoring for improving code readability without changing functionality. The refactoring was implemented manually and verified by re-running all tests.
+
+Co-authored-by: ChatGPT <AI@users.noreply.github.com>
+```
